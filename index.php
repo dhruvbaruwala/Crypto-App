@@ -28,7 +28,7 @@
                 echo '<h2>' . ucfirst($crypto) . ' (' . strtoupper($data['symbol']) . ')</h2>';
                 echo '<p>Current Price: $' . $data['market_data']['current_price']['usd'] . '</p>';
                 echo '<p>Market Cap: $' . number_format($data['market_data']['market_cap']['usd']) . '</p>';
-                echo '<h3>Price Chart (Last 30 days)</h3>';
+                echo '<h3 style="color:white">Price Chart (Last 30 days)</h3>';
                 echo '<canvas id="priceChart"></canvas>';
                 echo '</div>';
 
